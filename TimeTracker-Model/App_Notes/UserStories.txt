@@ -1,0 +1,18 @@
+﻿Current Task List
+------------------
+
+Display a list of the user's current tasks with Start/Stop buttons.
+Only one task is active at a time.
+
+[details] [Description] [Start|Stop]
+
+Other Operations:
+
+Remove Task -- Remove selected task from current task list.
+Details -- Show Details for selected task (possibly with edit options, or not)
+
+Add Task -- Choose a task from previously created task to add to the current task list.
+New Task -- Create a new task and add to current task list.
+
+Other Notes:
+
