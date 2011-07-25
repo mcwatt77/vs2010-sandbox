@@ -3,7 +3,7 @@ Public Class HomeController
     Inherits System.Web.Mvc.Controller
 
     Function Index() As ActionResult
-        ViewData("Message") = "Welcome to ASP.NET MVC!"
+        ViewData("Message") = "Welcome to TimeTracker"
 
         Return View()
     End Function
