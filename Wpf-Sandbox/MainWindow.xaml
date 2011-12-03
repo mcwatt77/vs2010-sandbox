@@ -1,0 +1,12 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="350" Width="525" >
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Button Name="DefaultButton" Height="Auto" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Width="Auto" IsDefault="True">
+            <Button.Content>
+                Click Me
+            </Button.Content>
+        </Button>
+    </Grid>
+</Window>

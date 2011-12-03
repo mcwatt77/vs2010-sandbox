@@ -98,6 +98,8 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CurrentTasksController.vb" />
+    <Compile Include="Controllers\HelloWorldController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -140,7 +142,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\ViewContentPage1.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Views\CurrentTasks\Index.aspx" />
+    <Content Include="Views\HelloWorld\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
